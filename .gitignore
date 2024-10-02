@@ -1,0 +1,82 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Build files
+/build/
+/app/build/
+/out/
+
+# Gradle files
+.gradle/
+/local.properties
+/.idea/libraries/
+/.idea/workspace.xml
+/.idea/gradle.xml
+/.idea/vcs.xml
+/.idea/navEditor.xml
+/.idea/modules.xml
+
+# Ignore .iml files (IntelliJ IDEA module files)
+*.iml
+
+# Ignore generated files
+/captures/
+/.externalNativeBuild/
+/*.apk
+/*.ap_
+/*.hprof
+/*.so
+*.DS_Store
+*.class
+*.log
+
+# Ignore Android Studio configuration
+/.idea/
+/.idea/misc.xml
+/.idea/dictionaries
+/.idea/modules.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+
+# Ignore build cache
+/.gradle/
+/.gradle/**
+
+# Ignore build outputs
+**/build/
+/app/build/
+/.idea/**/build/
+
+# Ignore generated JSON files from Gradle
+*.json
+
+# Ignore signing keys, keystore files, and environment-specific config files
+*.jks
+*.keystore
+
+# Ignore unit test reports
+/reports/
+/test-results/
+
+# Ignore local unit test coverage reports
+coverage/
+
+# Ignore generated crash logs
+crashlytics-build.properties
+
+# Ignore Flutter/Flutter_plugin
+.flutter-plugins
+.packages
